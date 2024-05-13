@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            background-color: blue;
+        } */
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column
+        }
+
+        /* .animate {
+            animation: example .35s ease-in;
+        }
+
+        @keyframes example {
+            0% {
+                box-shadow: 0px 0px 0px rgba(117, 122, 233, 0.70);
+            }
+
+            50% {
+                box-shadow: 0px 0px 14px rgba(117, 122, 233, 0.70);
+            }
+
+            100% {
+                box-shadow: 0px 0px 0px rgba(117, 122, 233, 0.70);
+            }
+        } */
+
+        th {
+            color: #28224B;
+            font-size: 12px;
+            font-family: Roboto;
+            font-weight: 700;
+            line-height: 18px;
+            word-wrap: break-word;
+            font-family: sans-serif
+        }
+
+        td {
+            color: #666666;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.04px;
+            word-wrap: break-word;
+        }
+
+        tr {
+            border: 1px solid rgba(0, 0, 0, 0.12)
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            border-radius: 4px;
+            margin: auto;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+
+        }
+
+        /* .dot {
+            display: block;
+            width: 12px;
+            height: 12px;
+            border-radius: 10px;
+
+            &.green {
+                background: #00C853;
+            }
+
+            &.blue {
+                background: #757AE9;
+            }
+        } */
+
+        /* button {
+            width: 114px;
+            height: 36px;
+            background: #757AE9;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            margin: auto;
+            font-family: sans-serif;
+            cursor: pointer
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- <p id="demo">sdsd</p>
+    <button onclick="checking()"> checking</button> -->
+    <!-- <button id="animateButton">Animate</button> -->
+    <!-- </div> -->
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th id="thone">check</th>
+                <th id="thtwo">check</th>
+                <th id="ththree">check</th>
+                <th id="thfour">check</th>
+                <th id="thfive">check</th>
+                <th id="thsix">check</th>
+                <th id="thseven">check</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="tdone">checking</td>
+                <td id="tdtwo">checking</td>
+                <td id="tdthree">checking</td>
+                <td id="tdfour">checking</td>
+                <td id="tdfive">checking</td>
+                <td id="tdsix">checking</td>
+                <td id="tdseven">checking</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        // let apikey="18ce5a2160dcee43721bf24f69042b93";
+
+
+
+
+
+        // function checking() {
+        //     let xhttp = new XMLHttpRequest();
+        //     xhttp.onreadystatechange = function ()
+        //      {
+        //         if (this.readyState == 4 && this.status == 200)
+        //         {
+        //             let check=JSON.parse(this.responseText)
+        //             document.getElementById("demo").textContent = check;
+        //         }
+        //     }
+        //     xhttp.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q=madurai&appid=${apikey}');
+        //     xhttp.send();
+        // }
+    </script>
+</body>
+
+</html>
